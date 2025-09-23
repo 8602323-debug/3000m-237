@@ -18,3 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/sbwml/luci-app-openlist2 package/openlist
+echo "src-git cups https://github.com/Gr4ffy/lede-cups.git" >> feeds.conf
